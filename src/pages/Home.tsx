@@ -1,3 +1,7 @@
+import TestReactQueryComp from "../components/TestReactQueryComp";
+
 export default function Home() {
-  return <div>Home</div>;
+  return <div>
+    <TestReactQueryComp/>
+  </div>;
 }
