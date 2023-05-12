@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const apiKey = 'RGAPI-c1af79a5-6700-419e-93cf-163269647d90'
+const apiKey = process.env.REACT_APP_RIOT_API_KEY
+// console.log(apiKey)
 // const requestHeader = {
 
 // }
