@@ -17,11 +17,11 @@ npm start
 - react-query
 - styled-components
 - axios
-- http-proxy-middleware(local proxy)
 ```
 
 ### 미설치 라이브러리
 
 ```
 - react-icons
+- http-proxy-middleware(local proxy)
 ```
