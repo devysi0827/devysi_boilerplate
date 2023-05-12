@@ -1,11 +1,30 @@
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Navigate,
+} from "react-router-dom";
+import { Home, Sub } from "./pages";
 import "./App.css";
 
-function App() {
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />,
+  },
+  {
+    path: "/sub",
+    element: <Sub />,
+  },
+  {
+    path: "*",
+    element: <Navigate to="/" replace />,
+  },
+]);
+
+export default function App() {
   return (
-    <div className="App">
-      <p>reset</p>
-    </div>
+    <>
+      <RouterProvider router={router} />
+    </>
   );
 }
-
-export default App;
