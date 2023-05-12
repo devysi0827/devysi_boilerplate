@@ -16,6 +16,7 @@ npm start
 - recoil
 - react-query
 - styled-components
+- axios
 ```
 
 ### 미설치 라이브러리
