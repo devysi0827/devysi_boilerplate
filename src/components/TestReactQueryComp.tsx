@@ -4,7 +4,16 @@ import { getChallengers } from "../logics/TestAPI";
 export default function TestReactQueryComp() {
   const { status, data, error } = useQuery<any, Error>(
     "challengers",
-    () => getChallengers()
+    () => getChallengers(),
+    {
+      onSuccess(data) {
+        console.log(data)
+      },
+      onError(err) {
+        console.log(err)
+      },
+    }
+    
   );
 
   if (status === "loading") {
@@ -15,7 +24,16 @@ export default function TestReactQueryComp() {
     return <span>Error: {error.message}</span>;
   }
 
-  return <div>success</div>;
-}
+  return (
+  <>
+  {data.entries.map((entry : any) => (
+    <li key={entry.summonerId}>
+      {entry.summonerName}
+    </li>
+    )) 
+  }
+  </>
+)
 
 
+  }
