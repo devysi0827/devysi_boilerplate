@@ -25,3 +25,7 @@ npm start
 - react-icons
 - http-proxy-middleware(local proxy)
 ```
+
+###
+- api_key 히든
+
