@@ -3,7 +3,7 @@ import {
   RouterProvider,
   Navigate,
 } from "react-router-dom";
-import { Home, Sub } from "./pages";
+import { Home, ReactQuery, Recoil } from "./pages";
 import "./App.css";
 
 const router = createBrowserRouter([
@@ -12,8 +12,12 @@ const router = createBrowserRouter([
     element: <Home />,
   },
   {
-    path: "/sub",
-    element: <Sub />,
+    path: "/query",
+    element: <ReactQuery />,
+  },
+  {
+    path: "/recoil",
+    element: <Recoil />,
   },
   {
     path: "*",
