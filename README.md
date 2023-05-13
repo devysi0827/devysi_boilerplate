@@ -11,7 +11,7 @@ npm start
 
 ```
 - react
-- typescript && @types/react, react-dom, styled-components
+- typescript && @types/react, react-dom, styled-components, react-query
 - react-router-dom && @types
 - recoil
 - react-query
@@ -27,5 +27,5 @@ npm start
 ```
 
 ###
-- api_key 히든
 
+- api_key 히든
