@@ -26,6 +26,13 @@ npm start
 - http-proxy-middleware(local proxy)
 ```
 
-###
+### 프로젝트 관련 설정
+- 절대경로 적용 (미적용)
 
-- api_key 히든
+### 프로젝트 생성 시 해야하는 것 
+- api_key 등록 (git에 안올라가서 매 번 갱신)
+
+### To-do
+- TestCode
+- Webpack or Vite
+- 배포관련
