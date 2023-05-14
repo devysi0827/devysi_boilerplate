@@ -36,3 +36,5 @@ npm start
 - TestCode
 - Webpack or Vite
 - 배포관련
+- 최적화기법
+- 폴더구조 연구
