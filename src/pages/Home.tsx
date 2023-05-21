@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import { introMessageState, introSelector } from "../recoil/recoilState";
+import { introMessageState, introSelector } from "recoil/recoilState";
 import { useRecoilState, useRecoilValue } from "recoil";
 
 export default function Home() {
