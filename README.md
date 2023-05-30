@@ -12,7 +12,7 @@ npm start
 ```
 - react
 - typescript && @types/react, react-dom, styled-components, react-query
-- react-router-dom && @types
+- react-router-dom
 - recoil
 - react-query
 - styled-components
