@@ -1,4 +1,4 @@
-import RecoilTest from "../components/RecoilTest";
+import RecoilTest from "components/RecoilTest";
 
 export default function Recoil() {
   return (

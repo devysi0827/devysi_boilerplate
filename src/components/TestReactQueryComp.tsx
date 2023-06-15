@@ -1,5 +1,5 @@
 import { useQuery } from "react-query";
-import { getChallengers } from "../logics/TestAPI";
+import { getChallengers } from "logics/TestAPI";
 
 export default function TestReactQueryComp() {
   const { status, data, error } = useQuery<any, Error>(

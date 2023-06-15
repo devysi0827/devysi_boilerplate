@@ -1,5 +1,5 @@
 import { useRecoilState, useRecoilValue } from "recoil";
-import { arraySelector, introMessageState } from "../recoil/recoilState";
+import { arraySelector, introMessageState } from "recoil/recoilState";
 
 export default function RecoilTest() {
   const [message, setMessage] = useRecoilState(introMessageState);

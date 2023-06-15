@@ -1,4 +1,4 @@
-import TestReactQueryComp from "../components/TestReactQueryComp";
+import TestReactQueryComp from "components/TestReactQueryComp";
 
 export default function ReactQuery() {
   return (
